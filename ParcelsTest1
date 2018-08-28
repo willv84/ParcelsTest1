@@ -1,0 +1,27 @@
+import sys
+import time
+
+#This is the intro of the program
+
+text1 = "Hello, please wait"
+
+for char in text1:
+     sys.stdout.write(char)
+     time.sleep(0.0)
+     
+print ()
+
+text2 = "Loading . . ."
+
+for char in text2:
+     sys.stdout.write(char)
+     time.sleep(0.3)
+     
+print ()
+
+print ("Please enter your name")
+name1= input()
+print("Thank you {},\nPlease wait until we load your configuration . . .".format(name1))
+print("Done")
+
+#This is the code for the GUI
